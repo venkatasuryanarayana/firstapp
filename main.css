@@ -1,0 +1,127 @@
+.main{
+display: flex;
+  flex-direction: row;
+  background-color: lightyellow;
+  padding-right: 10px;
+  width: 100%;
+
+}
+
+#t1 {
+     tab-size: 8;
+}
+
+.bio img{
+  border-radius: 80px;
+  height: 25%;
+
+}
+
+.name,.name1{
+  text-align: center;
+  font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+.label{
+  display: inline-block;
+  background: pink;
+  color: white;
+  border: 1px solid yellow;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.name{
+    padding-top: 50px;
+}
+
+.sidemenu{
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+div{
+  padding-bottom: 5px;
+}
+
+
+.left{
+  width: 35%;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: skyblue;
+  padding-top: 30px;
+  padding: 10px;
+  margin-right: 10px;
+  flex-wrap: wrap;
+
+}
+
+.right{
+  background-color: skyblue;
+  padding: 10px;
+}
+
+.background,.carrier,.experience,.skills{
+  font-weight: bold;
+}
+
+@media all and (min-width: 450px) and (max-width: 760px){
+  .main{
+    display: flex;
+     flex-wrap: wrap;
+  }
+.left,.right{
+  background-color: #665655;
+  border-radius: 10px;
+}
+.left{
+
+  width: 100%;
+  margin-bottom: 10px;
+}
+.right{
+  width: 100%;
+}
+}
+
+@media (max-width: 449px){
+  .main{
+    display: flex;
+     flex-wrap: wrap;
+  }
+
+  .left{
+
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .name,.name1,.sidemenu{
+    text-align: left;
+  }
+  .right{
+    width: 100%;
+  }
+
+
+}
+  /* @media only screen and (min-device-width: 768px) and (max-device-width: 1020px){ */
+/*@media (min-width:750px) and (max-width:900px) {}
+  .main{
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+  }
+  .left{
+    width:100%;
+    background: blue;
+  }
+  .right{
+    width: 100%;
+    background-color: red;
+  }
+}*/
